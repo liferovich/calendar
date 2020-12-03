@@ -1,0 +1,124 @@
+html {
+    overflow-x: hidden;
+}
+html,
+body {
+    margin: 0px;
+    padding: 0px;
+}
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.header {
+    background-color: #104a98;
+    width: 100%;
+}
+.header_inner {
+    margin-left: 10%;
+}
+.header_inner a {
+    display: flex;
+    align-items: flex-end;
+    text-decoration: none;
+    color: black;
+}
+.header_inner a object,
+img {
+    max-width: 100px;
+    margin: 0px 15px;
+    filter: brightness(0) invert(1);
+}
+
+.header_inner a p {
+    text-transform: uppercase;
+    font-size: 35px;
+    color: white;
+    font-family: "NunitoSans-Bold";
+}
+
+.main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    position: relative;
+}
+.main_inner {
+    padding: 25px;
+    background-image: url(../img/back3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 25px 0px;
+    padding-top: 50px;
+    min-height: 84vh;
+}
+h1 {
+    text-align: center;
+    font-size: 40px;
+    font-family: "NunitoSans-Bold";
+    font-weight: 600;
+    margin: 15px 0px;
+    margin-bottom: 35px;
+    color: white;
+}
+button {
+    padding: 10px 20px;
+    margin: 0px 0px 20px 40px;
+    background-color: aliceblue;
+    font-size: 16px;
+    background-color: #ffffffba;
+    border-radius: 7px;
+}
+
+#calendar{
+    text-align: center;
+    font-size: 22px;
+}
+table {
+    margin: auto;
+    font-size: 25px;
+    padding: 8px;
+    background-color: #ffffffba;
+    border-radius: 10px;
+}
+td {
+    padding: 5px;
+}
+
+p {
+    font-size: 25px;
+    margin: 10px 0px;
+    font-family: "ClearSans-Regular";
+    text-align: justify;
+}
+
+.footer {
+    height: 55px;
+    background-color: #104a98;
+}
+
+@media (min-width: 575.98px) {
+    .container {
+        width: 540px;
+    }
+}
+
+@media (min-width: 767.98px) {
+    .container {
+        width: 720px;
+    }
+}
+
+@media (min-width: 991.98px) {
+    .container {
+        width: 960px;
+    }
+}
+
+@media (min-width: 1199.98px) {
+    .container {
+        width: 1120px;
+        margin: 0px 10px;
+    }
+}
